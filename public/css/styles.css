@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    background-color: #ebebeb;
+}
+
+.home .logo{
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+
+.home header{
+    box-sizing: border-box;
+    background-color: #EAC926;
+}
+
+.home header .cuotas {
+   position: relative;
+    font-size: 12px;
+    padding: 0;
+    margin: 10px 0;
+    font-family: 'Roboto';
+    left: 15vh;
+}
+.home header .loguito{
+    position:relative;
+    bottom: -25px;
+    left: 12vh;
+    
+  
+}
+
+.home section .ul1{
+    display: none;
+    
+}
+
+.home section .ul2{
+    display: none;
+
+}
+
+
+.burger{
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 15px;
+   position: relative;
+   left: 40vw;
+    display: inline-block;
+}
+.home main{
+    width: 90%;
+    text-align: center;
+    margin: 15px;
+    box-sizing: content-box;
+    border: #ebebeb solid 1px;
+}
+
+    .home main .banner img{
+        width: 100%;
+    }
+    
+    .home main section article .cajita{
+    border: #ebebeb solid 1px;
+    margin: 1px auto;
+    background-color: white;
+    text-align: left;
+}
+
+.home main section article img {
+    width: 90vw;
+    margin: 1px auto
+   
+}
+
+.home main section article .camioncito{
+    color: #39b54a;
+    position: relative;
+    top: -35px;
+    left: 10px;
+}
+
+.home main section article .aro{
+    color: #39b54a;
+    font-size: 60px;
+}
+
+.home main section .titulo{
+    font-size: 24px;
+    font-family: 'Roboto';
+    padding: 2px;
+}
+
+.home main section .precio{
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding: 2px;
+}
+
+.home main section .descuento{
+    font-size: 16px;
+    font-family: 'Roboto';
+    padding: 2px;
+    color: #39b54a;
+}
+
+.home main section .descripcion{
+    display: none;
+}
+
+.home footer{
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   margin: 20vw;
+}
+
+.home footer section .credit{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home footer section .regalo{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home footer section .seguridad{
+    color: #1259c3;
+    font-size: 2em;
+}
+
+.home footer section p {
+ font-size: 12px; 
+ font-family: 'Roboto';
+
+}
+
+.home footer .derechos{
+    position: relative;
+    bottom: -30px;
+}
+
+@media (min-width: 361px) {
+
+    .home{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home section .ul1{
+        font-size: 16px;
+        padding: 0%;
+        margin: 16vw 0;
+        font-family: 'Roboto';
+        display: block;
+    }
+
+    .home section .ul2{
+        font-size: 12px;
+        padding: 0%;
+        margin: 10vw 0;
+        font-family: 'Roboto';
+        display: block;
+    }
+    .burger{
+        display: none;
+    }
+
+    .home main section .descripcion{
+        font-size: 16px;
+        font-family: 'Roboto';
+        padding-bottom: 5%;
+        padding: 2px;
+        display: block;
+    }
+    
+}
+
+@media (min-width: 769px) {
+
+    .home{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home section .ul1{
+        font-size: 16px;
+        padding: 0%;
+        margin: 16vw 0;
+        font-family: 'Roboto';
+        display: block;
+    }
+
+    .home section .ul2{
+        font-size: 12px;
+        padding: 0%;
+        margin: 10vw 0;
+        font-family: 'Roboto';
+        display: block;
+    }
+    .burger{
+        display: none;
+    }
+
+    .home main section .descripcion{
+        font-size: 16px;
+        font-family: 'Roboto';
+        padding-bottom: 5%;
+        padding: 2px;
+        display: block;
+    }
+    
+}
